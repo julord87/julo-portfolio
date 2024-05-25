@@ -364,6 +364,15 @@ button:active .button_top {
   height: 20px;
 }
 
+.cvSvg-EN {
+  background-image: url('/svg/cv_en.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
 @keyframes slide-in-top {
   0% {
     transform: translateY(-50px);
