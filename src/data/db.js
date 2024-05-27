@@ -34,15 +34,15 @@ export const devWorksDb = [
     },
     {
         id: 2,
-        name: "portfolio",
-        title: "This portfolio",
-        subtitle: "/ portfolio",
-        img: '/img/portfolio.jpg',
-        description: "Magic! Digital realm: where creativity meets fun.",
-        fullDescription: "For this project, React was used as the main framework, JavaScript for logic, TailwindCSS, headless UI, React hooks, and also custom ones, among other tools.",
-        tools: ["React", "Tailwind", "Vite"],
-        link: "julianmzg.com",
-        repolink: "https://github.com/julord87/portfoliord"
+        name: "the-coffee-shop",
+        title: "The Coffee Shop",
+        subtitle: "/ web app",
+        img: '/img/the-coffee-shop.jpg',
+        description: "Web application for snack trading, coffee shop, or restaurant.",
+        fullDescription: "It is a web app created with Next.js, Prisma, and TypeScript, divided into three parts: an administrator section (try /admin on the domain), a client section for placing orders, and another that notifies when the order is ready.",
+        tools: ["Next.js", "Typescript", "Prisma"],
+        link: "https://the-cofee-shop.vercel.app/",
+        repolink: "https://github.com/julord87/snack-stand"
     },
     {
         id: 3,
@@ -52,7 +52,7 @@ export const devWorksDb = [
         img: '/img/task-64.jpg',
         description: "A collaborative web app tailored for project management.",
         fullDescription: "For this app, I handled both frontend and backend development. I utilized technologies like Zod, CORS, MongoDB, React Query, React Hook Form, and more to craft a collaborative web app for enterprise or team project management.",
-        tools: ["React", "Typescript", "MongoDB"],
+        tools: ["React", "Typescript", "Node.js"],
         link: "https://task-64-frontend.vercel.app/",
         repolink: "https://github.com/julord87/Task-64"
     }
