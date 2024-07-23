@@ -3,7 +3,7 @@ export const areaDb = [
         id: 1, 
         name: "developer",
         title: "${as dev}",
-        description: "Julián has been freelancing since 2020, establishing himself as a proficient and adaptable developer. With a keen interest in staying updated with the latest technologies, he has solid experience across a wide range of languages frameworks and tools, including JavaScript, HTML, CSS, TypeScript, React, Next.js, Node.js, Express, Tailwind, Bootstrap, MongoDB, PostgreSQL, AWS, Git, Prisma and others. His dedication to continuous learning and exploration allows him to tackle diverse projects with creativity and efficiency.",
+        description: "Julián has been freelancing since 2020, establishing himself as a proficient and adaptable developer. With a keen interest in staying updated with the latest technologies, he has solid experience across a wide range of languages frameworks and tools, including JavaScript, HTML, CSS, TypeScript, React, Next.js, Node.js, Express, Redux Toolkit, Tailwind, Bootstrap, MongoDB, PostgreSQL, AWS, Git, Prisma and others. His dedication to continuous learning and exploration allows him to tackle diverse projects with creativity and efficiency.",
     },
     {
         id: 2,
