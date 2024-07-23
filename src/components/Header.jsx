@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
 
                     <div className="col-span-2 px-4 lg:p-0 font-extrabold text-5xl mb-10 md:text-5xl xl:text-6xl">
-                        <h1>{'> '}julian martinez is <span className="text-gray-600">a frontend developer, a sound designer, and a technical event producer_</span></h1>
+                        <h1>{'> '}julian martinez is <span className="text-gray-600">a fullstack developer, a sound designer, and a technical event producer_</span></h1>
                     </div>
 
                     <div className="col-span-1 p-4 text-center m-10 text-gray-600 border-2 border-gray-800 rounded-lg shadow-2xl lg:mr-8 bg-green-300 max-w-96 sm:mx-auto xs:mx-6">
