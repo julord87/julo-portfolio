@@ -35,4 +35,4 @@ const QuoteCard = ({ name, quote, img, linkedin }) => {
 }
 
 
-export default QuoteCard
+export default QuoteCard;
