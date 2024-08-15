@@ -39,7 +39,7 @@ export const devWorksDb = [
         subtitle: "/ web app",
         img: '/img/the-coffee-shop.jpg',
         description: "Web application for snack trading, coffee shop, or restaurant.",
-        fullDescription: "It is a web app created with Next.js, Prisma, and TypeScript, divided into three parts: an administrator section (try /admin/orders on the domain), a client section for placing orders, and another that notifies when the order is ready.",
+        fullDescription: "It is a web app created with Next.js, Prisma, and TypeScript, divided into three parts: an administrator section (try /admin/orders on the domain), a client section for placing orders, and another that notifies when the order is ready. Tip: try /admin/products",
         tools: ["Next.js", "Typescript", "Prisma"],
         link: "https://the-coffee-shop-rho.vercel.app/",
         repolink: "https://github.com/julord87/snack-stand"
