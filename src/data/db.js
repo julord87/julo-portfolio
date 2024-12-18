@@ -21,19 +21,55 @@ export const areaDb = [
 
 export const devWorksDb = [
     {
-        id: 1,
+        "id": 1,
+        "name": "letschu",
+        "title": "letschu.com.ar",
+        "subtitle": "/ eCommerce",
+        "img": "/img/letschu.jpg",
+        "description": "An eCommerce platform designed for an Argentine apparel brand.",
+        "fullDescription": "Letschu is a complete eCommerce solution tailored for an Argentine fashion brand. It integrates both frontend and backend functionalities, providing features like product browsing, cart management, and secure checkout. Technologies used include Next.js, TypeScript, Zustand for state management, Tailwind CSS for styling, and Prisma with a PostgreSQL database for robust data handling.",
+        "tools": ["Next.js", "TypeScript", "PostgreSQL"],
+        "link": "https://letschu.com.ar/",
+        "repolink": "https://github.com/julord87/letschu2"
+    },
+    {
+        id: 2,
         name: "arquitect-web",
-        title: "Arquitect web",
+        title: "emilianomartinez.uy",
         subtitle: "/ resume",
         img: '/img/arquitect-web.jpg',
         description: "Web resume. Freelance work for Uruguayan Architect.",
         fullDescription: "Work done for the architecture studio of Emiliano Martínez, architect in Uruguay. The work was done using HTML, CSS, and some JavaScript.",
         tools: ["HTML", "Bootstrap", "Javascript"],
-        link: "https://emarquitecture.netlify.app/",
+        link: "https://emilianomartinez.uy/",
         repolink: "https://github.com/julord87/portfoliord"
     },
     {
-        id: 2,
+        "id": 3,
+        "name": "Total Access",
+        "title": "totalaccess.com.ar",
+        "subtitle": "/ landing page",
+        "img": "/img/total-access.jpg",
+        "description": "A professional consultancy specializing in migration, and logistics solutions.",
+        "fullDescription": "Total Access is a landing page for a consultancy with over 15 years of experience in mobility services and legal advisory. The company provides specialized solutions for migration regulations, relocation, work permits, and customs logistics. Their multidisciplinary team delivers tailored, high-quality services to help businesses and individuals navigate complex mobility and logistics processes with confidence and efficiency. The landing page is designed with modern UI/UX practices to communicate professionalism and reliability.",
+        "tools": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "link": "https://totalaccess.com.ar/",
+        "repolink": "https://github.com/julord87/total-access"
+    },
+    {
+        "id": 3,
+        "name": "Julian Martinez Portfolio",
+        "title": "julianmzg.com.ar",
+        "subtitle": "/ portfolio",
+        "img": "/img/portfolio.jpg",
+        "description": "My work as a developer, technical event producer, and music producer.",
+        "fullDescription": "The portfolio of Julian Martinez is a dynamic and interactive web application designed to highlight his professional journey and skills. Built with React and Tailwind CSS, the website showcases his expertise in web development, technical event production, and music production. Visitors can explore a curated selection of projects, past events, and musical works, all presented in a clean and modern design that reflects Julian's diverse talents and dedication to creativity.",
+        "tools": ["React", "Tailwind CSS", "Vite"],
+        "link": "https://julianmzg.com.ar/",
+        "repolink": "https://github.com/julianmzg/portfolio"
+    },    
+    {
+        id: 5,
         name: "the-coffee-shop",
         title: "The Coffee Shop",
         subtitle: "/ web app",
@@ -45,7 +81,7 @@ export const devWorksDb = [
         repolink: "https://github.com/julord87/snack-stand"
     },
     {
-        id: 3,
+        id: 6,
         name: "task-64",
         title: "Task-64",
         subtitle: "/ web app",

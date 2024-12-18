@@ -18,8 +18,22 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
     return (
         <div className="card-2 mb-3 px-2 pb-6 mx-2 to-fade-in">
             <div>
-                <h2 className="Subtitle-9999">{title}</h2>
+            <div className="mt-2">
+                {link ? (
+                    <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="Subtitle-9999 hover:underline"
+                    >
+                    {title}
+                    </a>
+                ) : (
+                    <h2 className="Subtitle-9999">{title}</h2>
+                )}
                 {subtitle && <p className="Subtitle-9998">{subtitle}</p>}
+            </div>
+
 
                 {repolink && 
                     <div className="w-full p-5 mb-6">
@@ -62,10 +76,10 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                     {repolink &&
                         <div className="flex items-end justify-center h-full">
                             <a href={repolink} target="_blank" rel="noopener noreferrer">
-                                <img src="/svg/github.svg" className="h-7 w-7 mr-2" alt={`${title} repository`} />
+                                <img src="/svg/github.svg" className="hover:opacity-100 opacity-80 h-7 w-7 mr-2" alt={`${title} repository`} />
                             </a>
                             <a href={link} target="_blank" rel="noopener noreferrer">
-                                <img src="/svg/link.svg" className="h-6 w-6" alt={`${title} link`} />
+                                <img src="/svg/link.svg" className="hover:opacity-100 opacity-80 h-6 w-6" alt={`${title} link`} />
                             </a>
                         </div>
                     }
@@ -76,7 +90,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                         <span className="cols-span-1 Description-9999 text-slate-400 lg:hidden italic text-base mr-7">{`<`} slide</span>
                         <a href={videolink} target="_blank" rel="noopener noreferrer" className="flex items-center col-span-1">
                             <span className="Description-9999 text-slate-500">watch video :{' '}</span>
-                            <img src="/svg/youtube.svg" className="h-7 w-7 Description-9999 ml-2" alt={`${title} video link`} />
+                            <img src="/svg/youtube.svg" className="h-7 w-7 Description-9999 ml-2 hover:opacity-100 opacity-80" alt={`${title} video link`} />
                         </a>
                         <span className="Description-9999 text-slate-400 lg:hidden italic text-base ml-7">slide {`>`}</span>
                     </div>
