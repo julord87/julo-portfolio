@@ -66,7 +66,7 @@ export const devWorksDb = [
         "fullDescription": "The portfolio of Julian Martinez is a dynamic and interactive web application designed to highlight his professional journey and skills. Built with React and Tailwind CSS, the website showcases his expertise in web development, technical event production, and music production. Visitors can explore a curated selection of projects, past events, and musical works, all presented in a clean and modern design that reflects Julian's diverse talents and dedication to creativity.",
         "tools": ["React", "Tailwind CSS", "Vite"],
         "link": "https://julianmzg.com.ar/",
-        "repolink": "https://github.com/julianmzg/portfolio"
+        "repolink": "https://github.com/julord87/julo-portfolio"
     },    
     {
         id: 5,
