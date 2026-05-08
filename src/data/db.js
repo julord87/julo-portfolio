@@ -54,7 +54,7 @@ export const devWorksDb = [
         "fullDescription": "Total Access is a landing page for a consultancy with over 15 years of experience in mobility services and legal advisory. The company provides specialized solutions for migration regulations, relocation, work permits, and customs logistics. Their multidisciplinary team delivers tailored, high-quality services to help businesses and individuals navigate complex mobility and logistics processes with confidence and efficiency. The landing page is designed with modern UI/UX practices to communicate professionalism and reliability.",
         "tools": ["Next.js", "TypeScript", "Tailwind CSS"],
         "link": "https://totalaccess.com.ar/",
-        "repolink": "https://github.com/julord87/total-access"
+        "repolink": "https://total-access.vercel.app/nuestra_firma"
     },
     {
         "id": 3,
