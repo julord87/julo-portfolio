@@ -29,7 +29,7 @@ export const devWorksDb = [
         "description": "An eCommerce platform designed for an Argentine apparel brand.",
         "fullDescription": "Letschu is a complete eCommerce solution tailored for an Argentine fashion brand. It integrates both frontend and backend functionalities, providing features like product browsing, cart management, and secure checkout. Technologies used include Next.js, TypeScript, Zustand for state management, Tailwind CSS for styling, and Prisma with a PostgreSQL database for robust data handling.",
         "tools": ["Next.js", "TypeScript", "PostgreSQL"],
-        "link": "https://letschu.com.ar/",
+        "link": "https://letschu.vercel.app/",
         "repolink": "https://github.com/julord87/letschu2"
     },
     {
@@ -53,8 +53,8 @@ export const devWorksDb = [
         "description": "A professional consultancy specializing in migration, and logistics solutions.",
         "fullDescription": "Total Access is a landing page for a consultancy with over 15 years of experience in mobility services and legal advisory. The company provides specialized solutions for migration regulations, relocation, work permits, and customs logistics. Their multidisciplinary team delivers tailored, high-quality services to help businesses and individuals navigate complex mobility and logistics processes with confidence and efficiency. The landing page is designed with modern UI/UX practices to communicate professionalism and reliability.",
         "tools": ["Next.js", "TypeScript", "Tailwind CSS"],
-        "link": "https://totalaccess.com.ar/",
-        "repolink": "https://total-access.vercel.app/nuestra_firma"
+        "link": "https://total-access.vercel.app/",
+        "repolink": "https://github.com/julord87/total-access"
     },
     {
         "id": 3,
