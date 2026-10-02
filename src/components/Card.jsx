@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import ToolIcon from "./ToolIcon"
 import { useModal } from "../hooks/useModal";
-import { handleScroll } from "../helpers/handle-scroll-fn";
 
 const Card = ({title, img, description, tools, videolink, link, repolink, subtitle, fullDescription}) => {
     
@@ -10,10 +8,6 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
     const handleClick = () => {
         dispatch({ type: 'OPEN_MODAL', payload: { title, img, description, videolink, fullDescription, subtitle, repolink, link } })
     }
-
-    useEffect(() => {
-        handleScroll('.card-2');
-    }, []);
 
     return (
         <div className="card-2 mb-3 px-2 pb-6 mx-2 to-fade-in">
@@ -39,6 +33,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                     <div className="w-full p-5 mb-6">
                         <img 
                             src={img} 
+                            loading="lazy"
                             className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer" 
                             alt={title}
                             onClick={handleClick}
@@ -49,7 +44,8 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                 {videolink &&
                     <div className="w-full p-5 mb-6">
                         <img 
-                        src={img} 
+                        src={img}
+                        loading="lazy"
                         className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer" 
                         alt={title} 
                         onClick={handleClick}

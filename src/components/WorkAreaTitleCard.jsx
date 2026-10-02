@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { handleScroll } from "../helpers/handle-scroll-fn";
 
 const WorkAreaTitleCard = ({ title, description }) => {
     function divideStr(str) {
@@ -34,10 +32,6 @@ const WorkAreaTitleCard = ({ title, description }) => {
     }
 
     const descriptionArr = divideStr(description);
-
-    useEffect(() => {
-        handleScroll('.card');
-    }, []);
 
     return (
         <div className="card mb-5 mx-2 to-fade-in">

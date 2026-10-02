@@ -8,15 +8,10 @@ export function handleScroll() {
       }
     });
   }
-  
-  export function initScrollFadeIn() {
-    // Agregar evento de scroll
-    window.addEventListener('scroll', handleScroll);
-  
-    // Llamar a la función de manejo del scroll una vez para elementos ya visibles
+
+export function initScrollFadeIn() {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    // Elementos ya visibles al cargar
     handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
   }
-  
-  // Inicializar la animación de scroll al cargar la página
-  window.addEventListener('load', initScrollFadeIn);
-  

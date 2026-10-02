@@ -4,11 +4,11 @@ export const initialState = {
   
 export const modalReducer = (state, action) => {
   switch (action.type) {
-    case 'TOGGLE_MODAL':
+    case 'CLOSE_MODAL':
+      // Mantener data para que el contenido siga visible durante la animacion de salida
       return {
         ...state,
-        modal: !state.modal,
-        data: null // Limpiar los datos del modal al cerrarlo
+        modal: false
       };
     case 'OPEN_MODAL':
       return {
