@@ -17,5 +17,3 @@ export const ModalProvider = ({ children }) => {
         </ModalContext.Provider>
     )
 }
-
-export const useModal = () => useContext(ModalContext)

@@ -152,7 +152,7 @@ button:active .button_top {
 
 .Title-9999 {
   margin-bottom: 0.3em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   font-size: 5em;
   margin-left: 0.3em;
@@ -160,7 +160,7 @@ button:active .button_top {
 
 .Subtitle-9999 {
   margin-top: 0.3em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   font-size: 2em;
   margin-left: 0.3em;
@@ -169,7 +169,7 @@ button:active .button_top {
 
 .Subtitle-9998 {
   margin-top: -0.3em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 100;
   font-size: 0.9em;
   color: #646464;
@@ -187,7 +187,7 @@ button:active .button_top {
 
 .wa-card-description {
   margin-bottom: 0.3em;
-  font-family: 'Franklin Gothic Light', 'Arial Narrow', sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: lighter;
   font-size: 1.0em;
   background-color: #ededed00;
@@ -204,7 +204,7 @@ button:active .button_top {
 
 .Tools-9999 {
   font-size: 1.1em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   position: relative;
   margin-left: 4em;
@@ -212,7 +212,7 @@ button:active .button_top {
 }
 
 .YouGet-9999 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   position: relative;
   margin-left: 4em;

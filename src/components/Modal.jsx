@@ -1,4 +1,3 @@
-import React, { useReducer } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { useModal } from '../hooks/useModal';
@@ -9,12 +8,10 @@ export default function Modal() {
 
   const data = state.data;
 
-  console.log(data)
-
   return (
     <>
       <Transition appear show={state.modal} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={() => dispatch({ type: 'TOGGLE_MODAL' })}>
+        <Dialog as="div" className="relative z-10" onClose={() => dispatch({ type: 'CLOSE_MODAL' })}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -43,16 +40,14 @@ export default function Modal() {
                     <Dialog.Title as="h3" className="text-gray-900 text-4xl font-extrabold my-5 text-center">
                       {data.title} <span className='modal-subtitle-color'>{data.subtitle}</span>  
                     </Dialog.Title>
-                    <Dialog.Title>
-                      <img src={data.img} alt={data.title} className='rounded-xl shadow-lg' />
-                    </Dialog.Title>
-                    <Dialog.Title as="h3" className="text-gray-500 text-xs my-3 mr-2">
+                    <img src={data.img} alt={data.title} className='rounded-xl shadow-lg' />
+                    <p className="text-gray-500 text-xs my-3 mr-2">
                       <span style={{ textAlign: 'right', display: 'block',fontWeight: 'lighter', fontStyle: 'italic'}}>* {data.description}</span>
-                    </Dialog.Title>
-                    <Dialog.Title as="h3" className="text-gray-600 text-sm my-5">
+                    </p>
+                    <p className="text-gray-600 text-sm my-5">
                       <span style={{ textAlign: 'justify', display: 'block', fontWeight: 'lighter'}}>{'>'} {data.fullDescription}</span>
-                    </Dialog.Title>
-                    <Dialog.Title as="h3" className="text-gray-900 text-2xl font-extrabold my-3 mr-4">
+                    </p>
+                    <div className="text-gray-900 text-2xl font-extrabold my-3 mr-4">
                       {data.videolink &&
                         <a href={data.videolink} target="_blank" rel="noopener noreferrer" style={{ float: 'right' }}>
                           <img src="/svg/youtube.svg" className="h-7 w-7 ml-2" alt={data.title} />
@@ -68,7 +63,7 @@ export default function Modal() {
                           </a>
                         </div>
                       )}
-                    </Dialog.Title>
+                    </div>
                   </Dialog.Panel>
                 
                 }

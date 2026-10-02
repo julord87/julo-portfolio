@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
 
             <div className="max-w-6xl mx-auto pb-10">
-                <p className="footer-text text-center text-neutral-400">Copyright {'>'} Julian Martinez 2024</p>
+                <p className="footer-text text-center text-neutral-400">Copyright {'>'} Julian Martinez {new Date().getFullYear()}</p>
             </div>
         </div>
     </footer>
