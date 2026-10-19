@@ -95,9 +95,9 @@ export const devWorksDb = [
 ]
 
 export const musicWorksDb = [
-    { id: 1, spotifyId: "5ajWEGISBzNXiGex3cAcBu" },
+    { id: 1, spotifyId: "5rFZt8TWmJmwyGRJ456i5E", type: "album" },
     { id: 2, spotifyId: "1Qmq6aVq1W7iIt2EPmCQBO" },
-    { id: 3, spotifyId: "3YBfHM5P2r0WVReEGE0f4Q" },
+    { id: 3, spotifyId: "76wdlkUOtjWNvRaTT4qtYU", type: "album" },
 ]
 
 export const techWorksDb = [

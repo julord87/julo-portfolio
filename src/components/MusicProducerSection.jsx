@@ -15,9 +15,9 @@ const MusicProducerSection = () => {
                 {musicWorksDb.map((track) => (
                     <div key={track.id} className="col-span-1">
                         <iframe
-                            title={`Spotify track ${track.id}`}
+                            title={`Spotify ${track.type ?? 'track'} ${track.id}`}
                             style={{ borderRadius: '12px' }}
-                            src={`https://open.spotify.com/embed/track/${track.spotifyId}?utm_source=generator&theme=0`}
+                            src={`https://open.spotify.com/embed/${track.type ?? 'track'}/${track.spotifyId}?utm_source=generator&theme=0`}
                             width="100%"
                             height="352"
                             allowFullScreen=""
