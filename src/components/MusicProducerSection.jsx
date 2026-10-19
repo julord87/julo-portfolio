@@ -13,10 +13,9 @@ const MusicProducerSection = () => {
         <div className="spotify-card to-fade-in">
             <div className="grid grid-cols-1 gap-x-24 mt-4 space-y-2 md:grid-cols-2 lg:grid-cols-3 mx-3 items-baseline">
                 {musicWorksDb.map((track) => (
-                    <div key={track.id} className="col-span-1">
+                    <div key={track.id} className="col-span-1 rounded-xl border-2 border-white shadow-lg overflow-hidden">
                         <iframe
                             title={`Spotify ${track.type ?? 'track'} ${track.id}`}
-                            style={{ borderRadius: '12px' }}
                             src={`https://open.spotify.com/embed/${track.type ?? 'track'}/${track.spotifyId}?utm_source=generator&theme=0`}
                             width="100%"
                             height="352"
