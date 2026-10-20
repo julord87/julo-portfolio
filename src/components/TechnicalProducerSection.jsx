@@ -28,7 +28,7 @@ const TechnicalProducerSection = () => {
             ))}
         </div>
 
-        <MusicProducerSection compact />
+        <MusicProducerSection />
     </div>
   )
 }

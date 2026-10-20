@@ -3,21 +3,13 @@ import { areaDb, musicWorksDb } from "../data/db"
 
 const WorkAreaInfo = areaDb[1]
 
-const MusicProducerSection = ({ compact = false }) => {
+const MusicProducerSection = () => {
   return (
     <div className="max-w-6xl mx-auto mt-16">
-        {compact ? (
-            <div className="card mb-5 mx-2 to-fade-in">
-                <div className="p-5 px-16 flex items-center">
-                    <p className="Subtitle-9999 m-0 border-r-4 border-pink-100 pr-6">{WorkAreaInfo.title}</p>
-                </div>
-            </div>
-        ) : (
-            <WorkAreaTitleCard
-                title={WorkAreaInfo.title}
-                description={WorkAreaInfo.description}
-            />
-        )}
+        <WorkAreaTitleCard
+            title={WorkAreaInfo.title}
+            description={WorkAreaInfo.description}
+        />
         <div className="spotify-card to-fade-in">
             <div className="grid grid-cols-1 gap-x-24 mt-4 space-y-2 md:grid-cols-2 lg:grid-cols-3 mx-3 items-baseline">
                 {musicWorksDb.map((track) => (
