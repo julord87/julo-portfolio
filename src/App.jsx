@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Header from './components/Header';
 import DevSection from './components/DevSection';
-import MusicProducerSection from './components/MusicProducerSection';
 import TechnicalProducerSection from './components/TechnicalProducerSection';
 import QuotesSlider from './components/QuotesSlider';
 import Footer from './components/Footer';
@@ -17,13 +16,11 @@ function App() {
     <>
       <Header />
 
-      <DevSection />
-
       <TechnicalProducerSection />
 
-      <Modal />
+      <DevSection />
 
-      <MusicProducerSection />
+      <Modal />
 
       <QuotesSlider />
 

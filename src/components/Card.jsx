@@ -55,7 +55,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
 
 
 
-                <div className={`w-full ${repolink ? 'mb-6 border-b border-slate-400' : ''}`}>
+                <div className={`w-full ${repolink ? 'mb-6 border-b border-slate-400' : ''} ${!repolink && !videolink ? 'mt-4' : ''}`}>
                     <p className="Description-9999 ml-4 pb-4 px-6 text-slate-600">{description}</p>
                 </div>
 

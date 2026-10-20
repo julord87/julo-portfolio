@@ -15,7 +15,7 @@ export const areaDb = [
         id: 3,
         name: "technical-producer",
         title: "/ as tech prod",
-        description: "With over 10 years of experience in both public and private sectors, he has accumulated extensive expertise working on large-scale events throughout Argentina. He meticulously oversees every aspect of the technical production, meticulous structural organization, and rigorous safety measures for diverse events spanning music festivals, cultural gatherings, and corporate conferences. With a steadfast commitment to excellence, he effectively coordinates entire production teams and designated areas, ensuring seamless execution and the achievement of outstanding results.",
+        description: "Julian has spent 15+ years coordinating technical production for large-scale events. He spent 5 years at Argentina's Ministry of Culture, coordinating 80+ festivals and mass events nationwide — audiences up to 100,000, teams of up to 20 people — including the Buenos Aires Pride March, M.I.C.A., Argentina Florece, and festivals across the National Parks. He has also worked technical production on shows for The Rolling Stones and Paul McCartney. He is now Technical Project Director at Smartworks (Málaga), leading AV and construction documentation for Huawei's Q4 2026 product launch in Istanbul.",
     }
 ]
 
@@ -42,7 +42,8 @@ export const devWorksDb = [
         fullDescription: "Work done for the architecture studio of Emiliano Martínez, architect in Uruguay. The work was done using HTML, CSS, and some JavaScript.",
         tools: ["HTML", "Bootstrap", "Javascript"],
         link: "https://emilianomartinez.uy/",
-        repolink: "https://github.com/julord87/portfoliord"
+        repolink: "https://github.com/julord87/portfoliord",
+        active: false
     },
     {
         "id": 3,
@@ -66,8 +67,9 @@ export const devWorksDb = [
         "fullDescription": "The portfolio of Julian Martinez is a dynamic and interactive web application designed to highlight his professional journey and skills. Built with React and Tailwind CSS, the website showcases his expertise in web development, technical event production, and music production. Visitors can explore a curated selection of projects, past events, and musical works, all presented in a clean and modern design that reflects Julian's diverse talents and dedication to creativity.",
         "tools": ["React", "Tailwind CSS", "Vite"],
         "link": "https://julianmzg.com.ar/",
-        "repolink": "https://github.com/julord87/julo-portfolio"
-    },    
+        "repolink": "https://github.com/julord87/julo-portfolio",
+        "active": false
+    },
     {
         id: 5,
         name: "the-coffee-shop",
@@ -78,7 +80,8 @@ export const devWorksDb = [
         fullDescription: "It is a web app created with Next.js, Prisma, and TypeScript, divided into three parts: an administrator section (try /admin/orders on the domain), a client section for placing orders, and another that notifies when the order is ready. Tip: try /admin/products",
         tools: ["Next.js", "Typescript", "Prisma"],
         link: "https://the-coffee-shop-rho.vercel.app/",
-        repolink: "https://github.com/julord87/snack-stand"
+        repolink: "https://github.com/julord87/snack-stand",
+        active: false
     },
     {
         id: 6,
@@ -90,7 +93,8 @@ export const devWorksDb = [
         fullDescription: "For this app, I handled both frontend and backend development. I utilized technologies like Zod, CORS, MongoDB, React Query, React Hook Form, and more to craft a collaborative web app for enterprise or team project management.",
         tools: ["React", "Typescript", "Node.js"],
         link: "https://task-64-frontend.vercel.app/",
-        repolink: "https://github.com/julord87/Task-64"
+        repolink: "https://github.com/julord87/Task-64",
+        active: false
     }
 ]
 
@@ -101,6 +105,36 @@ export const musicWorksDb = [
 ]
 
 export const techWorksDb = [
+    {
+        id: 101,
+        name: "huawei-q4-launch",
+        title: "Huawei Germany Q4 Product Launch",
+        subtitle: "/ istanbul, dec 2026",
+        img: null,
+        description: "AV & construction technical direction /",
+        fullDescription: "Technical Project Director for Huawei's Q4 2026 product launch in Istanbul, leading AV and construction documentation for the event.",
+        tools: []
+    },
+    {
+        id: 102,
+        name: "rolling-stones",
+        title: "The Rolling Stones",
+        subtitle: "/ la plata, feb 2016",
+        img: null,
+        description: "technical production /",
+        fullDescription: "Technical production for The Rolling Stones' three shows at Estadio Único de La Plata (Feb 7, 10 and 13, 2016), part of the América Latina Olé Tour.",
+        tools: []
+    },
+    {
+        id: 103,
+        name: "paul-mccartney",
+        title: "Paul McCartney",
+        subtitle: "/ montevideo, oct 2024",
+        img: null,
+        description: "technical production /",
+        fullDescription: "Technical production for Paul McCartney's show in Montevideo on October 1, 2024 — the opening date of the South American leg of his Got Back Tour.",
+        tools: []
+    },
     {
         id: 1,
         name: "marcha-del-orgullo",

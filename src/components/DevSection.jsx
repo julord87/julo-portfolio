@@ -13,7 +13,7 @@ const DevSection = () => {
         />
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {devWorksDb.map((work) => (
+            {devWorksDb.filter((work) => work.active !== false).map((work) => (
                 <Card 
                     key={work.id} 
                     title={work.title}
