@@ -29,25 +29,25 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
             </div>
 
 
-                {repolink && 
+                {repolink && img &&
                     <div className="w-full p-5 mb-6">
-                        <img 
-                            src={img} 
+                        <img
+                            src={img}
                             loading="lazy"
-                            className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer" 
+                            className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
                             alt={title}
                             onClick={handleClick}
                         />
                     </div>
                 }
 
-                {videolink &&
+                {videolink && img &&
                     <div className="w-full p-5 mb-6">
-                        <img 
+                        <img
                         src={img}
                         loading="lazy"
-                        className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer" 
-                        alt={title} 
+                        className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
+                        alt={title}
                         onClick={handleClick}
                         />
                     </div>
@@ -55,7 +55,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
 
 
 
-                <div className={`w-full ${repolink ? 'mb-6 border-b border-slate-400' : ''} ${!repolink && !videolink ? 'mt-4' : ''}`}>
+                <div className={`w-full ${repolink && img ? 'mb-6 border-b border-slate-400' : ''} ${!img ? 'mt-4' : ''}`}>
                     <p className="Description-9999 ml-4 pb-4 px-6 text-slate-600">{description}</p>
                 </div>
 

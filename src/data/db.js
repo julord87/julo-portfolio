@@ -113,7 +113,8 @@ export const techWorksDb = [
         img: null,
         description: "AV & construction technical direction /",
         fullDescription: "Technical Project Director for Huawei's Q4 2026 product launch in Istanbul, leading AV and construction documentation for the event.",
-        tools: []
+        tools: [],
+        videolink: "https://www.youtube.com/watch?v=hj5V1Q2g-vg"
     },
     {
         id: 102,
@@ -123,7 +124,8 @@ export const techWorksDb = [
         img: null,
         description: "technical production /",
         fullDescription: "Technical production for The Rolling Stones' three shows at Estadio Único de La Plata (Feb 7, 10 and 13, 2016), part of the América Latina Olé Tour.",
-        tools: []
+        tools: [],
+        videolink: "https://www.youtube.com/watch?v=Gjb50-u2lA4"
     },
     {
         id: 103,
@@ -133,7 +135,8 @@ export const techWorksDb = [
         img: null,
         description: "technical production /",
         fullDescription: "Technical production for Paul McCartney's show in Montevideo on October 1, 2024 — the opening date of the South American leg of his Got Back Tour.",
-        tools: []
+        tools: [],
+        videolink: "https://www.youtube.com/watch?v=DrsocY2zMmM"
     },
     {
         id: 1,
