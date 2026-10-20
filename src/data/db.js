@@ -99,7 +99,7 @@ export const devWorksDb = [
 
 export const musicWorksDb = [
     { id: 1, spotifyId: "5rFZt8TWmJmwyGRJ456i5E", type: "album" },
-    { id: 2, spotifyId: "1Qmq6aVq1W7iIt2EPmCQBO" },
+    { id: 2, spotifyId: "1I4fLlu6i8WddE5iyofkUI", type: "album" },
     { id: 3, spotifyId: "76wdlkUOtjWNvRaTT4qtYU", type: "album" },
 ]
 
