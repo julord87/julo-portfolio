@@ -5,9 +5,9 @@ const WorkAreaInfo = areaDb[1]
 
 const MusicProducerSection = ({ compact = false }) => {
   return (
-    <div className={`max-w-6xl mx-auto ${compact ? 'mt-10' : 'mt-16'}`}>
+    <div className={`max-w-6xl mx-auto ${compact ? 'mt-20 pt-10 border-t border-slate-300/60' : 'mt-16'}`}>
         {compact ? (
-            <p className="Subtitle-9999 mb-4 mx-2">{WorkAreaInfo.title}</p>
+            <p className="Subtitle-9999 mb-6 mx-2">{WorkAreaInfo.title}</p>
         ) : (
             <WorkAreaTitleCard
                 title={WorkAreaInfo.title}

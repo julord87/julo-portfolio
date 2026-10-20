@@ -42,8 +42,7 @@ export const devWorksDb = [
         fullDescription: "Work done for the architecture studio of Emiliano Martínez, architect in Uruguay. The work was done using HTML, CSS, and some JavaScript.",
         tools: ["HTML", "Bootstrap", "Javascript"],
         link: "https://emilianomartinez.uy/",
-        repolink: "https://github.com/julord87/portfoliord",
-        active: false
+        repolink: "https://github.com/julord87/portfoliord"
     },
     {
         "id": 3,

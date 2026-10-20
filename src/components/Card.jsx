@@ -34,7 +34,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                         <img
                             src={img}
                             loading="lazy"
-                            className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
+                            className="w-full aspect-[8/5] object-cover border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
                             alt={title}
                             onClick={handleClick}
                         />
@@ -46,7 +46,7 @@ const Card = ({title, img, description, tools, videolink, link, repolink, subtit
                         <img
                         src={img}
                         loading="lazy"
-                        className="border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
+                        className="w-full aspect-[8/5] object-cover border-slate-500 shadow-lg border-2 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
                         alt={title}
                         onClick={handleClick}
                         />
